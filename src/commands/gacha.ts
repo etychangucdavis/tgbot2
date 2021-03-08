@@ -16,17 +16,46 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
     const gachas = [0, 0, 0, 10, 10, 10, 20, 20, 20, 30, 30, 30, 50, 50, 50, 100, 100, 200, 200, 500];
     const idx = Math.floor(Math.random() * gachas.length);
 
-    if (gachas[idx] == 0) const text = '0';
-    if (gachas[idx] == 10) const text = '10';
-    if (gachas[idx] == 20) const text = '20';
-    if (gachas[idx] == 30) const text = '30';
-    if (gachas[idx] == 50) const text = '50';
-    if (gachas[idx] == 100) const text = '100';
-    if (gachas[idx] == 200) const text = '200';
-    if (gachas[idx] == 500) const text = '500';
-
-    // Reply
-    ctx.reply(loc(text, chat.language), {
+    if (gachas[idx] == 0) 
+    {
+      const text = '0';
+      ctx.reply(loc(text, chat.language), {
+      disable_notification: true,
+    })
+    if (gachas[idx] == 10)
+    {
+      const text = '10';
+      ctx.reply(loc(text, chat.language), {
+      disable_notification: true,
+    })
+    if (gachas[idx] == 20)    {
+      const text = '10';
+      ctx.reply(loc(text, chat.language), {
+      disable_notification: true,
+    })
+    if (gachas[idx] == 30)     {
+      const text = '30';
+      ctx.reply(loc(text, chat.language), {
+      disable_notification: true,
+    })
+    if (gachas[idx] == 50)     {
+      const text = '50';
+      ctx.reply(loc(text, chat.language), {
+      disable_notification: true,
+    })
+    if (gachas[idx] == 100)     {
+      const text = '100';
+      ctx.reply(loc(text, chat.language), {
+      disable_notification: true,
+    })
+    if (gachas[idx] == 200)     {
+      const text = '200';
+      ctx.reply(loc(text, chat.language), {
+      disable_notification: true,
+    })
+    if (gachas[idx] == 500)     {
+      const text = '500';
+      ctx.reply(loc(text, chat.language), {
       disable_notification: true,
     })
 
