@@ -15,16 +15,16 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
 
     var gachas = [0, 0, 0, 10, 10, 10, 20, 20, 20, 30, 30, 30, 50, 50, 50, 100, 100, 200, 200, 500];
     var idx = Math.floor(Math.random() * gachas.length);
-    var text = ''
+    var text = '';
 
-    if (gachas[idx] == 0) text = '殘念! 槓龜!'
-    if (gachas[idx] == 10) text = '這次抽到的彩蛋是 10倍 !'
-    if (gachas[idx] == 20) text = '這次抽到的彩蛋是 20倍 !'
-    if (gachas[idx] == 30) text = '這次抽到的彩蛋是 30倍 !'
-    if (gachas[idx] == 50) text = '這次抽到的彩蛋是 50倍 !'
-    if (gachas[idx] == 100) text = '這次抽到的彩蛋是 100倍 !'
-    if (gachas[idx] == 200) text = '這次抽到的彩蛋是 200倍 !'
-    if (gachas[idx] == 500) text = '這次抽到的彩蛋是破天荒的 500倍 ! 佛心教主凱瑞!'
+    if (gachas[idx] == 0) text = '殘念! 槓龜!';
+    if (gachas[idx] == 10) text = '這次抽到的彩蛋是 10倍 !';
+    if (gachas[idx] == 20) text = '這次抽到的彩蛋是 20倍 !';
+    if (gachas[idx] == 30) text = '這次抽到的彩蛋是 30倍 !';
+    if (gachas[idx] == 50) text = '這次抽到的彩蛋是 50倍 !';
+    if (gachas[idx] == 100) text = '這次抽到的彩蛋是 100倍 !';
+    if (gachas[idx] == 200) text = '這次抽到的彩蛋是 200倍 !';
+    if (gachas[idx] == 500) text = '這次抽到的彩蛋是破天荒的 500倍 ! 佛心教主凱瑞!';
 
     // Reply
     ctx.replyWithMarkdown(text, {
