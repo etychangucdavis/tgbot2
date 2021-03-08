@@ -14,7 +14,7 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
     const chat = await findChat(ctx.chat.id)
 
     var gachas = [0, 0, 0, 10, 10, 10, 20, 20, 20, 30, 30, 30, 50, 50, 50, 100, 100, 200, 200, 500];
-    var idx = Math.floor(Math.random() * notRandomNumbers.length);
+    var idx = Math.floor(Math.random() * gachas.length);
     var text = ""
 
     if (gachas[idx] == 0) text = '殘念! 槓龜!'
