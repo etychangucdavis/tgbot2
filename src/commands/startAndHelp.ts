@@ -24,7 +24,7 @@ export function setupStartAndHelp(bot: Telegraf<ContextMessageUpdate>) {
       ['twenty', 30],
       ['thirty', 30],
       ['fifty', 30],
-      ['oneh', 20],
+      ['hundred', 20],
       ['twoh', 20],
       ['fiveh', 10],
     ];
