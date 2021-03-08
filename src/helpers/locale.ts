@@ -123,7 +123,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '參加!',
     es: '參加!',
   },
-  0: {
+  zero: {
     ru: '殘念! 槓龜!',
     en: '殘念! 槓龜!',
     pt: '殘念! 槓龜!',
@@ -132,7 +132,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '殘念! 槓龜!',
     es: '殘念! 槓龜!',
   },
-  10: {
+  ten: {
     ru: '這次抽到的彩蛋是 10倍 !',
     en: '這次抽到的彩蛋是 10倍 !',
     pt: '這次抽到的彩蛋是 10倍 !',
@@ -141,7 +141,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '這次抽到的彩蛋是 10倍 !',
     es: '這次抽到的彩蛋是 10倍 !',
   },
-  20: {
+  twenty: {
     ru: '這次抽到的彩蛋是 20倍 !',
     en: '這次抽到的彩蛋是 20倍 !',
     pt: '這次抽到的彩蛋是 20倍 !',
@@ -150,7 +150,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '這次抽到的彩蛋是 20倍 !',
     es: '這次抽到的彩蛋是 20倍 !',
   },
-  30: {
+  thirty: {
     ru: '這次抽到的彩蛋是 30倍 !',
     en: '這次抽到的彩蛋是 30倍 !',
     pt: '這次抽到的彩蛋是 30倍 !',
@@ -159,7 +159,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '這次抽到的彩蛋是 30倍 !',
     es: '這次抽到的彩蛋是 30倍 !',
   },
-  50: {
+  fifty: {
     ru: '這次抽到的彩蛋是 50倍 !',
     en: '這次抽到的彩蛋是 50倍 !',
     pt: '這次抽到的彩蛋是 50倍 !',
@@ -168,7 +168,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '這次抽到的彩蛋是 50倍 !',
     es: '這次抽到的彩蛋是 50倍 !',
   },
-  100: {
+  hundred: {
     ru: '這次抽到的彩蛋是 100倍 !',
     en: '這次抽到的彩蛋是 100倍 !',
     pt: '這次抽到的彩蛋是 100倍 !',
@@ -177,7 +177,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '這次抽到的彩蛋是 100倍 !',
     es: '這次抽到的彩蛋是 100倍 !',
   },
-  200: {
+  twoh: {
     ru: '這次抽到的彩蛋是 200倍 !',
     en: '這次抽到的彩蛋是 200倍 !',
     pt: '這次抽到的彩蛋是 200倍 !',
@@ -186,7 +186,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     ar: '這次抽到的彩蛋是 200倍 !',
     es: '這次抽到的彩蛋是 200倍 !',
   },
-  500: {
+  fiveh: {
     ru: '這次抽到的彩蛋是破天荒的 500倍 ! 佛心教主凱瑞!',
     en: '這次抽到的彩蛋是破天荒的 500倍 ! 佛心教主凱瑞!',
     pt: '這次抽到的彩蛋是破天荒的 500倍 ! 佛心教主凱瑞!',
