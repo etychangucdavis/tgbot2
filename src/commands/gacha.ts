@@ -27,7 +27,7 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
     if (gachas[idx] == 500) text = '這次抽到的彩蛋是破天荒的 500倍 ! 佛心教主凱瑞!';
 
     // Reply
-    ctx.reply(text, {
+    ctx.reply('123', {
       disable_notification: true,
     })
 
