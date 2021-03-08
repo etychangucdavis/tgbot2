@@ -13,51 +13,21 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
     // Get chat
     const chat = await findChat(ctx.chat.id)
 
-    const gachas = [0, 0, 0, 10, 10, 10, 20, 20, 20, 30, 30, 30, 50, 50, 50, 100, 100, 200, 200, 500];
-    const idx = Math.floor(Math.random() * gachas.length);
-
-    if (gachas[idx] == 0) 
-    {
-      const text = '0';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true,})
-    }
-    if (gachas[idx] == 10)
-    {
-      const text = '10';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true})
-    }
-    if (gachas[idx] == 20)    {
-      const text = '10';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true})
-    }
-    if (gachas[idx] == 30)     {
-      const text = '30';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true})
-    }
-    if (gachas[idx] == 50)     {
-      const text = '50';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true})
-    }
-    if (gachas[idx] == 100)     {
-      const text = '100';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true})
-    }
-    if (gachas[idx] == 200)     {
-      const text = '200';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true})
-    }
-    if (gachas[idx] == 500)     {
-      const text = '500';
-      ctx.reply(loc(text, chat.language), {
-      disable_notification: true})
-    }
+    const pick = require('pick-random-weighted');
+ 
+    const pool = [
+      ['0', 30],
+      ['10', 30],
+      ['20', 30],
+      ['30', 30],
+      ['50', 30],
+      ['100', 20],
+      ['200', 20],
+      ['500', 10],
+    ];
+    const text = pick(pool)
+    ctx.reply(loc(text, chat.language), {
+    disable_notification: true,})
 
 })
 }
