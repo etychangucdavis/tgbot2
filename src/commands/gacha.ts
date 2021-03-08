@@ -31,7 +31,7 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
     if (gachas[idx] == 20)    {
       const text = '10';
       ctx.reply(loc(text, chat.language), {
-      disable_notification: true)
+      disable_notification: true})
     }
     if (gachas[idx] == 30)     {
       const text = '30';
@@ -56,7 +56,7 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
     if (gachas[idx] == 500)     {
       const text = '500';
       ctx.reply(loc(text, chat.language), {
-      disable_notification: true,
+      disable_notification: true})
     }
 
 }
