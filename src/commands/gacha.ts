@@ -29,7 +29,6 @@ export function setupGacha(bot: Telegraf<ContextMessageUpdate>) {
     // Reply
     ctx.reply(text, {
       disable_notification: true,
-      disable_web_page_preview: true,
     })
 
   })
