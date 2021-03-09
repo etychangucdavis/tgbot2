@@ -14,5 +14,6 @@ export function setupSubscribe(bot: Telegraf<ContextMessageUpdate>) {
     const text = "handsome";
     ctx.reply(loc(text, chat.language), {
     disable_notification: true,})
+    ctx.replyWithPhoto('https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-golden-fashion-shiny-cosmetics-display-background-image_210474.jpg')
   })
 }
