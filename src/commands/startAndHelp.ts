@@ -21,14 +21,15 @@ export function setupStartAndHelp(bot: Telegraf<ContextMessageUpdate>) {
     const pool = [
       ['2800', 1],
       ['1400', 1],
-      ['700', 10],
+      ['700', 6],
       ['350', 10],
-      ['140', 20],
-      ['70', 20],
+      ['140', 22],
+      ['70', 22],
       ['0', 38],
     ];
     const text = pick(pool);
     ctx.reply(loc(text, chat.language), {
     disable_notification: true,})
+    ctx.replyWithPhoto('https://i.imgur.com/uJiDKVQ.png')
   })
 }
