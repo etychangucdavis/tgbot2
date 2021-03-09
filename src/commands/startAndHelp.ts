@@ -19,14 +19,13 @@ export function setupStartAndHelp(bot: Telegraf<ContextMessageUpdate>) {
     const pick = require('pick-random-weighted');
  
     const pool = [
-      ['zero', 30],
-      ['ten', 30],
-      ['twenty', 30],
-      ['thirty', 30],
-      ['fifty', 30],
-      ['hundred', 20],
-      ['twoh', 20],
-      ['fiveh', 10],
+      ['2800', 1],
+      ['1400', 1],
+      ['700', 10],
+      ['350', 20],
+      ['140', 20],
+      ['70', 20],
+      ['0', 28],
     ];
     const text = pick(pool);
     ctx.reply(loc(text, chat.language), {
