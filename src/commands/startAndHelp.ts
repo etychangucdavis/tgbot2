@@ -32,6 +32,7 @@ export function setupStartAndHelp(bot: Telegraf<ContextMessageUpdate>) {
     disable_notification: true,})
     if(text=='0')
         ctx.replyWithPhoto('https://i.imgur.com/QGYiLvW.png');
-    ctx.replyWithPhoto('https://i.imgur.com/uJiDKVQ.png');
+    else{
+        ctx.replyWithPhoto('https://i.imgur.com/uJiDKVQ.png');}
   })
 }
