@@ -30,6 +30,8 @@ export function setupStartAndHelp(bot: Telegraf<ContextMessageUpdate>) {
     const text = pick(pool);
     ctx.reply(loc(text, chat.language), {
     disable_notification: true,})
-    ctx.replyWithPhoto('https://i.imgur.com/uJiDKVQ.png')
+    if(text=='0')
+        ctx.replyWithPhoto('https://i.imgur.com/QGYiLvW.png');
+    ctx.replyWithPhoto('https://i.imgur.com/uJiDKVQ.png');
   })
 }
