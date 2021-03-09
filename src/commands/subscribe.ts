@@ -1,7 +1,8 @@
 import { Telegraf, ContextMessageUpdate } from 'telegraf'
+import { checkIfAdmin } from '../helpers/checkAdmin'
+import { startRaffle } from '../helpers/raffle'
 import { findChat } from '../models/chat'
 import { loc } from '../helpers/locale'
-import { getChatIdForConfig } from '../helpers/getChatIdForConfig'
 
 export function setupSubscribe(bot: Telegraf<ContextMessageUpdate>) {
   bot.command(['handsomecarry', 'imsohandsome'], async (ctx) => {
