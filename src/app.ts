@@ -18,7 +18,6 @@ import { setupNodelete } from './commands/nodelete'
 import { setupListenForForwards } from './helpers/listenForForwards'
 import { setupConfigRaffle } from './commands/configRaffle'
 import { setupAddChat } from './commands/addChat'
-import { setupGacha } from './commands/gacha'
 const telegraf = require('telegraf')
 
 // Setup the bot
