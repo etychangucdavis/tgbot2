@@ -15,8 +15,8 @@ export function setupSubscribe(bot: Telegraf<ContextMessageUpdate>) {
     // Reply
     ctx.reply('教主在招喚我．．．')
     await delay(1000);
-    ctx.replyWithPhoto('https://i.imgur.com/BAC4jWk.png')
-    await delay(2000);
+    ctx.replyWithDocument('https://i.imgur.com/NYtB66S.gif')
+    await delay(5000);
     ctx.reply('凱瑞教主萬安！就讓風火輪來幫你抽獎，教主請下令！')
    })
 }
