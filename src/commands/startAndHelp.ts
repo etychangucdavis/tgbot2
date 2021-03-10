@@ -30,7 +30,7 @@ export function setupStartAndHelp(bot: Telegraf<ContextMessageUpdate>) {
       ['3', 125],
     ];
     
-    ctx.reply('這次禮包裡面的獎品是．．．')
+    ctx.reply('這次福袋裡面的獎品是．．．')
     ctx.replyWithPhoto('https://i1.kknews.cc/SIG=k5e5i6/ctp-vzntr/or085o99q6sr466qn4p6ns46p40qq246.jpg');
     sleep.sleep(4);
     
